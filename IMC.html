@@ -3,30 +3,29 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IMC</title>
+    <title>Calculadora de IMC</title>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <main>
-      <div class="container">
-        <div class="title"> Calculadora - IMC </div>
-        <div class="input">
-            <label>Nome:</label>
-            <input type="text" id='nome'>
+      <div class="imc-container">
+        <div class="imc-title">Calculadora de IMC</div>
+        <div class="imc-input">
+            <label for="altura">Altura (cm):</label>
+            <input type="number" id="altura">
         </div>
-        <div class="input">
-            <label>Altura:</label>
-            <input type="number" id='altura'>
+        <div class="imc-input">
+            <label for="peso">Peso (kg):</label>
+            <input type="number" id="peso">
         </div>
-        <div class="input">
-            <label>Peso:</label>
-            <input type="number" id='peso'>
-        </div>
-        <button id='calcular'>Calcular</button>
-
-        <div class="result" id='resultado'></div>
+        <button id="calcular">Calcular IMC</button>
+        <div class="imc-result" id="resultado"></div>
       </div>
     </main>
     <script src="./imc.js"></script>
   </body>
 </html>
+
+
+
+<!-- HTML NÃO FOI FEITO POR MIM FEITO POR CHATGPT PARA ESTILIZAÇÃO // ACOMPANHAR CODIGO DE PROGAMAÇÃO JS -->

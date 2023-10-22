@@ -1,80 +1,72 @@
-main {
+body {
+  margin: 0;
+  padding: 0;
   display: flex;
-  width: 100vw;
+  justify-content: center;
+  align-items: center;
   height: 100vh;
-  justify-content: center;
-  align-items: center;
-
+  background: #f2f2f2;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-  background: rgb(255, 198, 0);
-  width: 400px;
-  height: 600px;
-  align-items: center;
-  justify-content: space-evenly;
-  border-radius: 20px;
-  box-shadow: 0 0 10px black;
+.imc-container {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding: 20px;
 }
 
-.title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 50px;
-  font: bold 2.5rem serif;
-  border-bottom: solid 5px black;
+.imc-title {
+  font-size: 24px;
+  font-weight: bold;
   margin-bottom: 20px;
 }
 
-.input {
-  display: flex;
-  width: 300px;
-  height: 50px;
-  justify-content: space-between;
-  align-items: center;
+.imc-input {
+  margin: 10px 0;
 }
 
-.input input {
-  width: 200px;
-  height: 50px;
+.imc-input label {
+  display: block;
+  font-weight: bold;
+}
+
+.imc-input input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
   border-radius: 5px;
-  border: none;
-  outline: 0;
-  font: bold 1.5rem serif;
-  text-align: center;
-}
-
-.input label {
-  font: bold 1.5rem serif;
+  margin-top: 5px;
+  font-size: 16px;
 }
 
 button {
-  width: 300px;
-  height: 40px;
-  font: bold 1.2rem serif;
-  background: #000;
-  color: rgb(255, 198, 0);
-  outline: none;
+  width: 100%;
+  padding: 10px;
+  background: #007bff;
+  color: #fff;
+  border: none;
   border-radius: 5px;
   cursor: pointer;
+  font-size: 18px;
+  margin-top: 10px;
+  transition: background 0.3s;
 }
 
-.result {
-  display: flex;
-  margin-top: 20px;
-  align-items: center;
-  width: 300px;
-  height: 150px;
-  border-radius: 5px;
-  font: italic 1.5rem serif;
-  box-shadow: 0px 0px 10px black;
-  background: #000;
-  color: rgb(255, 198, 0);
-  padding: 20px;
-  box-sizing: border-box;
-  user-select: none;
+button:hover {
+  background: #0056b3;
 }
+
+.imc-result {
+  background: #28a745;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+
+
+/* ACOMPANHAR JS FEITO POR MIM ESTUTURA, FOI FEITO POR CHAT GPT // ACOMPANHAR CODIGO DE PROGAMAÇÃO JS*/

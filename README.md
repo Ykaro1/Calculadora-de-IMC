@@ -1,2 +1,3 @@
-# IMC-JS-PURO
-Projeto para calculo de imc
+Calculadora de IMC 
+
+HTML | TAILWIND | JAVASCRIPT

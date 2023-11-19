@@ -1,3 +1,1 @@
-Calculadora de IMC 
-
-HTML | TAILWIND | JAVASCRIPT
+Calculadora feita com js puro e HTML E css do chat gpt
